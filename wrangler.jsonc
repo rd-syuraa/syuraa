@@ -1,6 +1,6 @@
 {
   "$schema": "node_modules/wrangler/config-schema.json",
-  "name": "ISI DENGAN NAMA GITHUB",
+  "name": "syuraa",
   "main": "_worker.js",
   "compatibility_date": "2025-09-27",
   "observability": {
@@ -15,7 +15,7 @@
     "nodejs_compat"
   ],
   "vars": {
-    "ALLOWED_ORIGINS": "https://prodig.zhost.digital,https://www.prodig.zhost.digital",
+    "ALLOWED_ORIGINS": "https://syuraa.my.id,https://www.syuraa.my.id",
     "APP_GAS_URL": "https://script.google.com/macros/s/AKfycbzbzUCtTtekNp7DgnRJuJ46WOBlK8Zpl5a0b8FtKbJnw18olBl-wD_DvFDb8wEXYqg9xQ/exec",
     "MOOTA_GAS_URL": "https://script.google.com/macros/s/AKfycbzbzUCtTtekNp7DgnRJuJ46WOBlK8Zpl5a0b8FtKbJnw18olBl-wD_DvFDb8wEXYqg9xQ/exec",
     "MOOTA_TOKEN": "TOKEN MOOTA"
