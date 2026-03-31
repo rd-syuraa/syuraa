@@ -1,0 +1,23 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "syuraa",
+  "main": "_worker.js",
+  "compatibility_date": "2025-09-27",
+  "observability": {
+    "enabled": true
+  },
+  "assets": {
+    "directory": "public",
+    "binding": "ASSETS",
+    "run_worker_first": true
+  },
+  "compatibility_flags": [
+    "nodejs_compat"
+  ],
+  "vars": {
+    "ALLOWED_ORIGINS": "https://prodig.zhost.digital,https://www.prodig.zhost.digital",
+    "APP_GAS_URL": "https://script.google.com/macros/s/AKfycbyc09s-WMXSn5o60NOOcuCfb_Iu6_tG-Xjst7TxZB-RVOJjdlW47oysRyXemgvaskil2Q/exec",
+    "MOOTA_GAS_URL": "https://script.google.com/macros/s/AKfycbyc09s-WMXSn5o60NOOcuCfb_Iu6_tG-Xjst7TxZB-RVOJjdlW47oysRyXemgvaskil2Q/exec",
+    "MOOTA_TOKEN": "TOKEN MOOTA"
+  }
+}
